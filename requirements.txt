@@ -1,4 +1,4 @@
 pyspark
-tkinter
+tk
 pandas
 matplotlib
