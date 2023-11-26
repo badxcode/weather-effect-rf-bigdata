@@ -11,7 +11,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 spark = SparkSession.builder.appName("WeatherAnalysis").getOrCreate()
 
-data_path = "weather_analysis.csv"git 
+data_path = "weather_analysis.csv"
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
 df.printSchema()
